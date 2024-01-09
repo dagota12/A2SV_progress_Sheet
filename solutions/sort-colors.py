@@ -6,7 +6,6 @@ class Solution:
         colors = [0,1,2]
         i = 0
         j = 0
-        # print(count.values())
         for val in count:
             temp = val
             while temp > 0 and j < len(colors):
